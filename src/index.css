@@ -1,0 +1,332 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f8f8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Calender CSS start */
+.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
+       overflow-x: visible !important;
+}
+.MuiPickersCalendarHeader-root > div:nth-child(2) {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.css-cyfsxc-MuiPickersCalendarHeader-labelContainer{
+    margin-left:27;
+}
+.MuiPickersCalendarHeader-root > div:nth-child(1), .MuiPickersArrowSwitcher-root {
+    display: non !important;
+}
+.css-1qs309j-MuiButtonBase-root-MuiPickersDay-root.Mui-selected, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected {
+    background-color: #14a2b8 !important;
+}
+    .css-1qs309j-MuiButtonBase-root-MuiPickersDay-root, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root, .MuiDayCalendar-header span, .MuiDayCalendar-weekContainer button, .MuiDayCalendar-weekContainer div {
+    width: 60px !important;
+    height: 45px !important;
+}
+.MuiDayCalendar-header span {
+    width: 60px !important;
+    height: 25px !important;
+    color: #4e4d4d;
+    font-weight: bold;
+}
+.css-cyfsxc-MuiPickersCalendarHeader-labelContainer > div{
+    font-weight: bold;
+}
+
+.css-1qs309j-MuiButtonBase-root-MuiPickersDay-root, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root {
+    border-radius: 20% !important;
+}
+    .MuiDayCalendar-weekContainer button, .css-1qs309j-MuiButtonBase-root-MuiPickersDay-root {
+        font-weight: bold;
+    }
+.MuiPickersCalendarHeader-root {
+    display: none;
+}
+.css-i7y1zb-MuiStack-root {
+    height: 365px !important;
+    overflow: hidden !important;
+}
+    .css-cwhad8-MuiDateCalendar-root {
+    overflow: visible !important;
+}
+.layout {
+    margin-top: 68px;
+}
+header {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.MuiStack-root.css-i7y1zb-MuiStack-root {
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 1px solid #f3f0f0;
+    border-right: 1px solid #f3f0f0;
+    border-left: 1px solid #f3f0f0;
+    box-shadow: 1px 1px 1px #f3f0f0;
+}
+form.rounded-md, input.text-sm, form > button, input.text-sm::placeholder {
+    background-color: rgb(32 200 226);
+    color: #fff !important;
+}
+div > a > div {
+    background-color: #20c8e2 !important;
+    border: none;
+    border-radius: 7px !important;
+    font-size: 9px !important;
+}
+.below {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 1px solid #f3f0f0;
+    border-right: 1px solid #f3f0f0;
+    border-left: 1px solid #f3f0f0;
+    box-shadow: 2px 2px 2px #ebebeb;
+}
+.bg-indigo-500 {
+    background-color: #14a2b8 !important;
+}
+.set {
+    /* width: 3%; */
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+.css-cwhad8-MuiDateCalendar-root {
+    /* overflow: hidden; */
+    width: 480px !important;
+}
+.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition, .css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
+    min-height: 135px !important;
+}
+    /* Calender CSS end */
+    /* RESPONSIVE SIDE NAVBAR */
+    : root {
+    font-size: 16px;
+    font-family: 'Roboto';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+.css-nk89i7-MuiPickersCalendarHeader-root {
+   
+    margin-top: 6px !important;
+}
+    .navbar {
+    position: fixed;
+    background-color: #ffffff;
+    transition: width 600ms ease;
+   
+    z-index: 100;
+}
+
+
+    /* width */
+    .navbar::-webkit-scrollbar {
+        width: 1px;
+        height: 1px;
+    }
+
+    /* Track */
+    .navbar::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 1px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    .navbar::-webkit-scrollbar-thumb {
+        background: rgb(141, 187, 255);
+        border-radius: 10px;
+    }
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 5px 25px;
+}
+
+.nav-item {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+   
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+    /*.nav-link:hover {
+        filter: grayscale(0%) opacity(1);
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+    }*/
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    width: 1.5rem;
+    min-width: 1.5rem;
+    margin: 0 1.5rem;
+}
+
+.fa-primary {
+    color: #ff7eee;
+}
+
+.fa-secondary {
+    color: #df49a6;
+}
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+
+    .logo svg {
+        transform: rotate(0deg);
+        transition: var(--transition-speed);
+    }
+
+.logo-text {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+}
+
+/*.navbar:hover .logo svg {
+    transform: rotate(-180deg);
+}*/
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    li:nth-child(1) {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .navbar {
+        top: 0;
+        height: 100vh;
+    }
+
+       /* .navbar:hover {
+            width: 16rem;
+        }
+
+            .navbar:hover .link-text {
+                display: inline;
+            }
+
+            .navbar:hover .logo svg {
+                margin-left: 11rem;
+            }
+
+            .navbar:hover .logo-text {
+                left: 0px;
+            }*/
+}
+
+.dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
+.light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+}
+
+.solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+}
+
+.theme-icon {
+    display: none;
+}
+
+.dark #darkIcon {
+    display: block;
+}
+
+.light #lightIcon {
+    display: block;
+}
+
+.solar #solarIcon {
+    display: block;
+}
