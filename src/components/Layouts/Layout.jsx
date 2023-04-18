@@ -3,7 +3,6 @@ import Calender from './Calender';
 import charts from "../../assets/images/charts.png";
 import hotels from "../../assets/images/hotels.png";
 import set from "../../assets/images/set.png";
-import $ from 'jquery';
 
 function Layout() {
 
