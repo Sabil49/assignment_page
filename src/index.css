@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -24,9 +25,7 @@ code {
     font-size: 1rem;
     line-height: 1.5;
 }
-.css-cyfsxc-MuiPickersCalendarHeader-labelContainer{
-    margin-left:27;
-}
+
 .MuiPickersCalendarHeader-root > div:nth-child(1), .MuiPickersArrowSwitcher-root {
     display: non !important;
 }
@@ -101,7 +100,6 @@ div > a > div {
     background-color: #14a2b8 !important;
 }
 .set {
-    /* width: 3%; */
     position: fixed;
     right: 0;
     top: 100px;
