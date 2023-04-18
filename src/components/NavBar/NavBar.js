@@ -1,4 +1,3 @@
-import { useLocation } from "react-router-dom";
 import logo_side from "../../assets/images/logo_side.png";
 import apps from "../../assets/images/apps.png";
 import bootstrap from "../../assets/images/bootstrap.png";
