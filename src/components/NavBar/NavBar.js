@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import logo_side from "../../assets/images/logo_side.png";
 import apps from "../../assets/images/apps.png";
 import bootstrap from "../../assets/images/bootstrap.png";
@@ -8,8 +7,7 @@ import dashboard from "../../assets/images/dashboard.png";
 import plugin from "../../assets/images/plugin.png";
 
 const NavBar = () => {
-    const location = useLocation();
-
+    
     return (
         <>
             <nav className="navbar">
