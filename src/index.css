@@ -17,8 +17,10 @@ code {
 }
 
 /* Calender CSS start */
-.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
-       overflow-x: visible !important;
+
+
+.MuiPickersSlideTransition-root {
+    overflow-x: visible !important;
 }
 .MuiPickersCalendarHeader-root > div:nth-child(2) {
     font-weight: 500;
@@ -29,10 +31,11 @@ code {
 .MuiPickersCalendarHeader-root > div:nth-child(1), .MuiPickersArrowSwitcher-root {
     display: non !important;
 }
-.css-1qs309j-MuiButtonBase-root-MuiPickersDay-root.Mui-selected, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected {
+.MuiButtonBase-root MuiPickersDay-root Mui-selected:hover,
+.MuiButtonBase-root MuiPickersDay-root Mui-selected {
     background-color: #14a2b8 !important;
 }
-    .css-1qs309j-MuiButtonBase-root-MuiPickersDay-root, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root, .MuiDayCalendar-header span, .MuiDayCalendar-weekContainer button, .MuiDayCalendar-weekContainer div {
+.MuiButtonBase-root, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root, .MuiDayCalendar-header span, .MuiDayCalendar-weekContainer button, .MuiDayCalendar-weekContainer div {
     width: 60px !important;
     height: 45px !important;
 }
@@ -42,11 +45,11 @@ code {
     color: #4e4d4d;
     font-weight: bold;
 }
-.css-cyfsxc-MuiPickersCalendarHeader-labelContainer > div{
+.MuiPickersCalendarHeader-labelContainer > div {
     font-weight: bold;
 }
 
-.css-1qs309j-MuiButtonBase-root-MuiPickersDay-root, .css-7oawqu-MuiButtonBase-root-MuiPickersDay-root {
+.MuiButtonBase-root {
     border-radius: 20% !important;
 }
     .MuiDayCalendar-weekContainer button, .css-1qs309j-MuiButtonBase-root-MuiPickersDay-root {
@@ -55,11 +58,11 @@ code {
 .MuiPickersCalendarHeader-root {
     display: none;
 }
-.css-i7y1zb-MuiStack-root {
+.MuiStack-root {
     height: 365px !important;
     overflow: hidden !important;
 }
-    .css-cwhad8-MuiDateCalendar-root {
+.MuiDateCalendar-root {
     overflow: visible !important;
 }
 .layout {
@@ -69,7 +72,7 @@ header {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
-.MuiStack-root.css-i7y1zb-MuiStack-root {
+.MuiStack-root {
     background-color: #fff;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -104,11 +107,11 @@ div > a > div {
     right: 0;
     top: 100px;
 }
-.css-cwhad8-MuiDateCalendar-root {
+.MuiDateCalendar-root {
     /* overflow: hidden; */
     width: 480px !important;
 }
-.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition, .css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
+.MuiPickersSlideTransition-root {
     min-height: 135px !important;
 }
     /* Calender CSS end */
@@ -128,8 +131,7 @@ main {
     margin-left: 5rem;
     padding: 1rem;
 }
-.css-nk89i7-MuiPickersCalendarHeader-root {
-   
+.MuiPickersCalendarHeader-root {
     margin-top: 6px !important;
 }
     .navbar {
