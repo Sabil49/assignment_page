@@ -1,7 +1,5 @@
 import React from 'react';
 import Searchbar from './Searchbar';
-import logo from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
 import Righticons from "./Righticons";
 
 function Header() {
